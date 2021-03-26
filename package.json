@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-button",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw:build": "postcss css/tailwind.config.css -o css/tailwind.build.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^4.1.10",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4"
+  },
+  "keywords": [],
+  "author": "alhasandev",
+  "license": "ISC"
+}

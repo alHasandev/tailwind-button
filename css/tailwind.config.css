@@ -1,0 +1,20 @@
+/* tailwindcss import css build */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply px-4 py-2 rounded font-semibold cursor-pointer focus:outline-none shadow-md highlight-none;
+  }
+
+  .button-outline {
+    @apply px-3.5 py-1.5 rounded border-2 font-semibold cursor-pointer focus:outline-none shadow-md highlight-none;
+  }
+}
+
+@layer utilities {
+  .highlight-none {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  }
+}

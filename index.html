@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="css/tailwind.dev.css" /> -->
+    <link rel="stylesheet" href="css/tailwind.build.css" />
+    <link rel="stylesheet" href="vendor/alHasandev/button-ripple.css" />
+
+    <title>My Button With Tailwindcss & Button Ripple</title>
+  </head>
+  <body class="bg-gray-50">
+    <div class="container mx-auto text-center px-2 md:px-0 py-4 min-h-screen">
+      <h1 class="text-xl md:text-2xl font-semibold md:font-bold mb-8">
+        My Button with Tailwind.CSS and Button Ripple Efect from AlHasandev
+      </h1>
+
+      <div
+        class="flex justify-around md:items-center flex-col md:flex-row h-80"
+      >
+        <button ripple class="button bg-blue-500 text-gray-50">
+          BLUE FILL
+        </button>
+        <button ripple class="button bg-green-500 text-gray-50">
+          GREEN FILL
+        </button>
+        <button
+          ripple
+          ripple-color="rgb(139, 92, 246)"
+          class="button-outline border-purple-500 text-purple-500"
+        >
+          PURPLE OUTLINE
+        </button>
+        <button ripple class="button bg-yellow-500 text-gray-50">
+          YELLOW FILL
+        </button>
+        <button ripple class="button bg-red-500 text-gray-50">RED FILL</button>
+      </div>
+    </div>
+
+    <!-- scripts & libraries of javascript -->
+    <script src="vendor/alHasandev/debounce.js"></script>
+    <script src="vendor/alHasandev/button-ripple.js"></script>
+  </body>
+</html>
